@@ -7,5 +7,6 @@ One-liner shell script that will setup your WSL.
 Clone and run the shell:
 
 ```bash
-chmod +x run.sh & sudo sh ./run.sh
+chmod +x run.sh && sudo sh ./run.sh
 ```
+
