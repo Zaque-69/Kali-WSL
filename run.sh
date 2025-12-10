@@ -8,16 +8,21 @@ sudo apt upgrade -y && \
 
 # Cybersecurity packages
 sudo apt install \
-  fish \
   aircrack-ng \
   apktool \
   binwalk \
+  chromium \
   curl \
   dex2jar \
   exiftool \
+  ffuf \
   file \
+  fish \
+  foremost \
   gdb \
+  geany \
   git \
+  hashcat \
   jd-gui \
   john \
   lm-sensors \
@@ -28,6 +33,8 @@ sudo apt install \
   pngcrush \
   sherlock \
   steghide \
+  thunar \
+  tshark \
   wget -y && \
 
 # Python3 libraries
@@ -51,3 +58,4 @@ sudo rm -rf neofetch
 
 # Others
 rm ~/.bashrc && cp .bashrc ~/
+rm ~/.config/fish/config.fish && cp ./config.fish ~/.config/fish/
