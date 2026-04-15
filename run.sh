@@ -12,8 +12,10 @@ sudo apt install \
   apktool \
   binwalk \
   chromium \
+  crunch \
   curl \
   dex2jar \
+  dirbuster \
   exiftool \
   ffuf \
   file \
@@ -22,10 +24,12 @@ sudo apt install \
   gdb \
   geany \
   git \
+  gobuster \
   hashcat \
   jd-gui \
   john \
   lm-sensors \
+  nikto \
   nmap \
   p7zip \
   pip \
@@ -35,7 +39,9 @@ sudo apt install \
   steghide \
   thunar \
   tshark \
-  wget -y && \
+  wget \
+  whatweb \
+  wpscan -y && \
 
 # Python3 libraries
 pip3 install customtkinter beautifulsoup4 librosa pillow requests setuptools --break-system-packages
